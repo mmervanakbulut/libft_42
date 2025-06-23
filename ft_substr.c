@@ -1,0 +1,62 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_substr.c                                       :+:      :+:    :+:    */
+/*                                                    +:+ +:+         +:+     */
+/*   By: musakbul <musakbul@student.42istanbul.com  +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2025/06/11 10:29:32 by musakbul          #+#    #+#             */
+/*   Updated: 2025/06/11 10:29:32 by musakbul         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
+#include "libft.h"
+#include <stdio.h>
+
+char	*ft_substr(const char *s, unsigned int start, size_t len)
+{
+	char	*sub;
+	char	*empty;
+	size_t	s_len;
+	size_t	i;
+
+	if (!s)
+		return (NULL);
+
+	s_len = ft_strlen(s);
+
+	if (start >= s_len)
+	{
+		empty = (char *)malloc(1);
+		if (empty)
+			empty[0] = '\0';
+		return (empty);
+	}
+
+	if (len > s_len - start)
+		len = s_len - start;
+
+	sub = (char *)malloc(len + 1);
+	if (!sub)
+		return (NULL);
+
+	i = 0;
+	while (i < len)
+	{
+		sub[i] = s[start + i];
+		i++;
+	}
+	sub[i] = '\0';
+	return(sub);
+}
+
+int	main()
+{
+	char	*s = "Hello, world!";
+	char	*result = ft_substr(s, 7, 5);
+	if(result)
+	{
+		printf("substring is %s", result);
+		free(result);
+	}
+}
