@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strlcpy.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: musakbul <musakbul@student.42istanbul.com  +#+  +:+       +#+        */
+/*   By: musakbul <musakbul@student.42istanbul.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/01 13:07:53 by musakbul          #+#    #+#             */
-/*   Updated: 2025/06/01 13:07:53 by musakbul         ###   ########.fr       */
+/*   Updated: 2025/06/26 16:37:36 by musakbul         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

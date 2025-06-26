@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strmapi.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: musakbul <musakbul@student.42istanbul.com  +#+  +:+       +#+        */
+/*   By: musakbul <musakbul@student.42istanbul.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/25 18:43:24 by musakbul          #+#    #+#             */
-/*   Updated: 2025/06/25 18:43:24 by musakbul         ###   ########.fr       */
+/*   Updated: 2025/06/26 16:37:31 by musakbul         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

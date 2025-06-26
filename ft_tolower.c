@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_tolower.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: musakbul <musakbul@student.42istanbul.com  +#+  +:+       +#+        */
+/*   By: musakbul <musakbul@student.42istanbul.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/01 15:37:43 by musakbul          #+#    #+#             */
-/*   Updated: 2025/06/01 15:37:43 by musakbul         ###   ########.fr       */
+/*   Updated: 2025/06/26 16:10:12 by musakbul         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

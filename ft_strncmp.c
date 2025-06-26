@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strncmp.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: musakbul <musakbul@student.42istanbul.com  +#+  +:+       +#+        */
+/*   By: musakbul <musakbul@student.42istanbul.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/01 17:02:33 by musakbul          #+#    #+#             */
-/*   Updated: 2025/06/01 17:02:33 by musakbul         ###   ########.fr       */
+/*   Updated: 2025/06/26 16:37:28 by musakbul         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

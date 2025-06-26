@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isalpha.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: musakbul <musakbul@student.42istanbul.com  +#+  +:+       +#+        */
+/*   By: musakbul <musakbul@student.42istanbul.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/28 10:43:44 by musakbul          #+#    #+#             */
-/*   Updated: 2025/05/28 11:16:58 by musakbul         ###   ########.fr       */
+/*   Updated: 2025/06/26 16:39:08 by musakbul         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

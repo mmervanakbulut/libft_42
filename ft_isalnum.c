@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isalnum.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: musakbul <musakbul@student.42istanbul.com  +#+  +:+       +#+        */
+/*   By: musakbul <musakbul@student.42istanbul.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/28 11:41:23 by musakbul          #+#    #+#             */
-/*   Updated: 2025/05/28 12:42:28 by musakbul         ###   ########.fr       */
+/*   Updated: 2025/06/26 16:39:12 by musakbul         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isprint.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: musakbul <musakbul@student.42istanbul.com  +#+  +:+       +#+        */
+/*   By: musakbul <musakbul@student.42istanbul.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/30 15:22:50 by musakbul          #+#    #+#             */
-/*   Updated: 2025/05/30 15:22:50 by musakbul         ###   ########.fr       */
+/*   Updated: 2025/06/26 16:38:58 by musakbul         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

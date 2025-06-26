@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isdigit.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: musakbul <musakbul@student.42istanbul.com  +#+  +:+       +#+        */
+/*   By: musakbul <musakbul@student.42istanbul.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/28 11:17:37 by musakbul          #+#    #+#             */
-/*   Updated: 2025/05/28 11:33:28 by musakbul         ###   ########.fr       */
+/*   Updated: 2025/06/26 16:39:01 by musakbul         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

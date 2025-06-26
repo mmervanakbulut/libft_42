@@ -1,28 +1,26 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_isascii.c                                       :+:      :+:    :+:   */
+/*   ft_putchar_fd.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: musakbul <musakbul@student.42istanbul.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/05/28 11:57:02 by musakbul          #+#    #+#             */
-/*   Updated: 2025/06/26 16:39:05 by musakbul         ###   ########.fr       */
+/*   Created: 2025/06/26 16:03:58 by musakbul          #+#    #+#             */
+/*   Updated: 2025/06/26 16:53:27 by musakbul         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
 #include "libft.h"
 
-int	ft_isascii(int c)
+// ft_putchar_fd: A function that writes a single character to a file descriptor.
+// It uses the write system call to output the character.
+void	ft_putchar_fd(char c, int fd)
 {
-	if (c >= 0 && c <= 127)
-	{
-		return (1);
-	}
-	return (0);
+	write(fd, &c, 1);
 }
-
 int	main(void)
 {
-	printf("%d", ft_isascii('a'));
+	ft_putchar_fd('A', 1); // stdout'a 'A' yazar
+	ft_putchar_fd('\n', 1); // newline
+	return (0);
 }
