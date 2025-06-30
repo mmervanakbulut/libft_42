@@ -6,7 +6,7 @@
 /*   By: musakbul <musakbul@student.42istanbul.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/28 11:17:37 by musakbul          #+#    #+#             */
-/*   Updated: 2025/06/26 16:39:01 by musakbul         ###   ########.fr       */
+/*   Updated: 2025/06/30 16:58:10 by musakbul         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,7 @@ int	ft_isdigit(int c)
 	return (0);
 }
 
-int	main()
+int	main(void)
 {
 	printf("%d", ft_isdigit('3'));
 }

@@ -6,12 +6,11 @@
 /*   By: musakbul <musakbul@student.42istanbul.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/04 15:13:54 by musakbul          #+#    #+#             */
-/*   Updated: 2025/06/26 16:39:48 by musakbul         ###   ########.fr       */
+/*   Updated: 2025/06/30 16:40:53 by musakbul         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <stdio.h>
 
 int	ft_atoi(char *str)
 {
