@@ -6,11 +6,10 @@
 /*   By: musakbul <musakbul@student.42istanbul.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/30 15:22:29 by musakbul          #+#    #+#             */
-/*   Updated: 2025/06/26 16:38:28 by musakbul         ###   ########.fr       */
+/*   Updated: 2025/07/01 15:32:41 by musakbul         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
 #include "libft.h"
 
 void	*ft_memset(void *ptr, int value, size_t len)
@@ -25,18 +24,4 @@ void	*ft_memset(void *ptr, int value, size_t len)
 		len--;
 	}
 	return (ptr);
-}
-
-int	main(void)
-{
-	char arr[10] = "theText";
-	int	arr1[2] = {123, 456};
-	printf("%s\n", arr);
-	printf("%d\n", arr1[0]);
-	ft_memset(arr1, 1, 2);
-	ft_memset(arr1, 1, 1);
-	printf("%d\n", arr1[0]);
-	printf("%d\n", arr1[1]);
-	ft_memset(arr, 99, 4);
-	printf("%.*s\n", 10, arr);
 }

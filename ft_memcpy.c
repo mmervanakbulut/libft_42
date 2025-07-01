@@ -6,11 +6,10 @@
 /*   By: musakbul <musakbul@student.42istanbul.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/30 19:04:43 by musakbul          #+#    #+#             */
-/*   Updated: 2025/06/26 16:38:38 by musakbul         ###   ########.fr       */
+/*   Updated: 2025/07/01 15:32:35 by musakbul         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
 #include "libft.h"
 
 void	*ft_memcpy(void *dest, const void *src, size_t n)
@@ -28,11 +27,4 @@ void	*ft_memcpy(void *dest, const void *src, size_t n)
 		n--;
 	}
 	return (dest);
-}
-
-int	main(void)
-{
-	char dest[20] = "asdf asdf asdf"; // read-only bellek bölgesi
-	char *src = "deneme 123";
-	printf("%s", (char *)ft_memcpy(dest, src, 4));
 }

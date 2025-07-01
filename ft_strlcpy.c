@@ -6,11 +6,10 @@
 /*   By: musakbul <musakbul@student.42istanbul.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/01 13:07:53 by musakbul          #+#    #+#             */
-/*   Updated: 2025/06/30 17:38:21 by musakbul         ###   ########.fr       */
+/*   Updated: 2025/07/01 15:33:00 by musakbul         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
 #include "libft.h"
 
 size_t	ft_strlcpy(char *dest, char *src, unsigned int size)
@@ -34,14 +33,4 @@ size_t	ft_strlcpy(char *dest, char *src, unsigned int size)
 		dest[i] = '\0';
 	}
 	return (len);
-}
-
-int	main(void)
-{
-	char	buffer[5];
-	char	*src = "Hello, world";
-
-	int	len = ft_strlcpy(buffer, src, sizeof(buffer));
-	printf("%d\n", len);
-	printf("%s\n", buffer);
 }

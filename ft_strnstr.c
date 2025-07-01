@@ -6,12 +6,11 @@
 /*   By: musakbul <musakbul@student.42istanbul.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/01 19:04:18 by musakbul          #+#    #+#             */
-/*   Updated: 2025/06/26 16:37:24 by musakbul         ###   ########.fr       */
+/*   Updated: 2025/07/01 15:33:09 by musakbul         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <stdio.h>
 
 char	*ft_strnstr(const char *haystack, const char *needle, size_t len)
 {
@@ -29,7 +28,7 @@ char	*ft_strnstr(const char *haystack, const char *needle, size_t len)
 			while (needle[j] && haystack[i + j] && (i + j) < len)
 			{
 				if (haystack[i + j] != needle[j])
-					break;
+					break ;
 				j++;
 			}
 			if (!needle[j])
@@ -38,15 +37,4 @@ char	*ft_strnstr(const char *haystack, const char *needle, size_t len)
 		i++;
 	}
 	return (NULL);
-}
-
-int	main()
-{
-	const char	*haystack = "adana merkez";
-	const char	*needle = "merk";
-	size_t	len = 9;
-
-	char	*result = ft_strnstr(haystack, needle, len);
-
-	printf("%s", result);
 }

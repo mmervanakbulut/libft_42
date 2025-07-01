@@ -6,16 +6,12 @@
 /*   By: musakbul <musakbul@student.42istanbul.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/26 17:01:59 by musakbul          #+#    #+#             */
-/*   Updated: 2025/06/26 17:10:29 by musakbul         ###   ########.fr       */
+/*   Updated: 2025/07/01 15:27:51 by musakbul         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-// ft_putnbr_fd: A function that writes an integer to a file descriptor.
-// It handles negative numbers and uses recursion to print each digit.
-// The function takes an integer and a file descriptor as arguments.
-// It converts the integer to a long to handle the edge case of INT_MIN.
 void	ft_putnbr_fd(int n, int fd)
 {
 	long	nb;
@@ -30,17 +26,4 @@ void	ft_putnbr_fd(int n, int fd)
 		ft_putnbr_fd(nb / 10, fd);
 	nb = nb % 10 + '0';
 	write(fd, &nb, 1);
-}
-
-int	main(void)
-{
-	int	number = -12345;
-
-	// Sayıyı standart çıktıya yazdır
-	ft_putnbr_fd(number, 1);
-
-	// Yeni satır ekleyelim ki çıktı daha düzenli olsun
-	write(1, "\n", 1);
-
-	return (0);
 }

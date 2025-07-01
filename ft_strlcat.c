@@ -6,11 +6,10 @@
 /*   By: musakbul <musakbul@student.42istanbul.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/01 13:58:49 by musakbul          #+#    #+#             */
-/*   Updated: 2025/06/30 17:38:54 by musakbul         ###   ########.fr       */
+/*   Updated: 2025/07/01 15:32:58 by musakbul         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
 #include "libft.h"
 
 size_t	ft_strlcat(char *dest, char *src, unsigned int size)
@@ -33,14 +32,4 @@ size_t	ft_strlcat(char *dest, char *src, unsigned int size)
 	}
 	dest[dest_size + i] = '\0';
 	return (dest_size + src_size);
-}
-
-int	main()
-{
-	char dest[25] = "elma";
-	char src[] = "denizli";
-	printf("%s\n", src);
-	printf("%zu\n", ft_strlcat(dest, src, 4));
-	printf("%s\n", src);
-	printf("%s\n", dest);
 }

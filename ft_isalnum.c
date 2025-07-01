@@ -6,11 +6,10 @@
 /*   By: musakbul <musakbul@student.42istanbul.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/28 11:41:23 by musakbul          #+#    #+#             */
-/*   Updated: 2025/06/26 16:39:12 by musakbul         ###   ########.fr       */
+/*   Updated: 2025/07/01 15:25:37 by musakbul         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
 #include "libft.h"
 
 int	ft_isalnum(int c)
@@ -22,9 +21,4 @@ int	ft_isalnum(int c)
 		return (1);
 	}
 	return (0);
-}
-
-int	main(void)
-{
-	printf("%d", ft_isalnum('|'));
 }

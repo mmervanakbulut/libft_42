@@ -6,11 +6,10 @@
 /*   By: musakbul <musakbul@student.42istanbul.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/01 12:15:52 by musakbul          #+#    #+#             */
-/*   Updated: 2025/06/26 16:38:33 by musakbul         ###   ########.fr       */
+/*   Updated: 2025/07/01 20:15:05 by musakbul         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
 #include "libft.h"
 
 static void	copy_forward(unsigned char *t,
@@ -49,20 +48,8 @@ void	*ft_memmove(void *to, const void *from, size_t numBytes)
 	t = (unsigned char *)to;
 	f = (const unsigned char *)from;
 	if (f > t)
-	{
 		copy_forward(t, f, numBytes);
-	}
 	else
-	{
 		copy_backward(t, f, numBytes);
-	}
 	return (to);
-}
-
-int	main(void)
-{
-	char str[] = "123456789";
-	char str2[3];
-	ft_memmove(str2, str, 2);
-	printf("%s", str2);
 }

@@ -6,12 +6,11 @@
 /*   By: musakbul <musakbul@student.42istanbul.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/25 18:15:39 by musakbul          #+#    #+#             */
-/*   Updated: 2025/06/26 16:38:54 by musakbul         ###   ########.fr       */
+/*   Updated: 2025/07/01 15:32:26 by musakbul         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <stdio.h>
 
 static size_t	ft_intlen(long n)
 {
@@ -56,19 +55,4 @@ char	*ft_itoa(int n)
 		nb /= 10;
 	}
 	return (str);
-}
-
-int	main(void)
-{
-	int	values[] = {0, -42, 12345, -2147483648, 2147483647};
-	for (int i = 0; i < 5; i++)
-	{
-		char *str = ft_itoa(values[i]);
-		if (str)
-		{
-			printf("%d -> \"%s\"\n", values[i], str);
-			free(str);
-		}
-	}
-	return (0);
 }

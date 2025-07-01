@@ -6,7 +6,7 @@
 /*   By: musakbul <musakbul@student.42istanbul.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/25 18:00:17 by musakbul          #+#    #+#             */
-/*   Updated: 2025/06/26 20:17:27 by musakbul         ###   ########.fr       */
+/*   Updated: 2025/07/01 15:28:03 by musakbul         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -81,21 +81,4 @@ char	**ft_split(char const *s, char c)
 	if (!result)
 		return (NULL);
 	return (split_words(s, c, result));
-}
-
-#include <stdio.h>
-
-int	main(void)
-{
-	char	**arr = ft_split("hello world this is libft", ' ');
-	int		i = 0;
-
-	while (arr && arr[i])
-	{
-		printf("Word %d: %s\n", i, arr[i]);
-		free(arr[i]);
-		i++;
-	}
-	free(arr);
-	return (0);
 }
