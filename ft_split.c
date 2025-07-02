@@ -6,7 +6,7 @@
 /*   By: musakbul <musakbul@student.42istanbul.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/25 18:00:17 by musakbul          #+#    #+#             */
-/*   Updated: 2025/07/01 15:28:03 by musakbul         ###   ########.fr       */
+/*   Updated: 2025/07/02 18:14:09 by musakbul         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -69,7 +69,7 @@ static char	**split_words(char const *s, char c, char **res)
 	return (res);
 }
 
-char	**ft_split(char const *s, char c)
+char	**ft_split(const char *s, char c)
 {
 	char	**result;
 	size_t	word_count;
