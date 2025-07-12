@@ -52,12 +52,4 @@ fclean: clean
 
 re: fclean all
 
-deneme: all clean
-	cc main.c $(NAME)
-	clear
-	@./a.out
-
-norm:
-	norminette $(SRC)
-
 .PHONY: all clean fclean re
